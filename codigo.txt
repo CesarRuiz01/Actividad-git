@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="assets/favicon.png">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="cyan" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Contacto</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Formulario de Contacto</h1>
+    <form id="contact-form" method="post" action="enviar.php">
+      <label for="subject">Asunto:</label>
+      <input type="text" id="subject" name="subject" required>
+      
+      <label for="to_email">Correo:</label>
+      <input type="email" id="to_email" name="to_email" required>
+      
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+   <footer class="footer">
+    <p>Cesar Angel Baruch Ruiz Valadez 9A.</p>
+  </footer>
+</body>
+</html>
